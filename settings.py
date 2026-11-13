@@ -1,0 +1,6 @@
+SCREEN_WIDTH = 960
+SCREEN_HEIGHT = 640
+
+SCREEN_TITLE = 'Веселая ферма'
+BG_COLOR = (151, 196, 105)
+
