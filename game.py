@@ -21,3 +21,6 @@ class FarmWindow(arcade.Window):
                              cfg.YARD_BOTTON, cfg.YARD_TOP),
             cfg.YARD_COLOR
         )
+
+    def on_update(self, delta_time):
+        self.chicken.update(delta_time)
