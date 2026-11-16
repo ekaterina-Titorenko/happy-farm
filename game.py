@@ -7,7 +7,7 @@ class FarmWindow(arcade.Window):
     def __init__(self):
         super().__init__(cfg.SCREEN_WIDTH, cfg.SCREEN_HEIGHT, cfg.SCREEN_TITLE)
         self.background_color = cfg.BG_COLOR
-        self.chicken = Chicken(cfg.SCREEN_WIDTH // 2, cfg.SCREEN_HEIGHT // 2)
+        self.chicken = Chicken(cfg.CHICKEN_START_X, cfg.CHICKEN_START_Y)
 
     def on_draw(self):
         self.clear()
